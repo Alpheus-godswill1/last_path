@@ -1,0 +1,502 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* Header Offcanvas */
+.navBar{
+    margin-bottom: 2%;
+    background-color: #6a2085;
+    color: #000000;
+    font-size: x-large;
+}
+.nav-item a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20;
+    font-family: 'Exo 2';
+}
+.nav-item a:hover{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20;
+    font-family: 'Exo 2';
+    padding: 4px;
+}
+.Sect-Nav{
+    margin-top: 4%;
+}
+
+/* About Us Index.php page Small Box */
+.Will h1{
+    color: #3F0A51;
+}
+.jumbotron h2{
+    color: #3F0A51;
+}
+.jumbotron p::first-letter{
+    font-size: 300%;
+    color: #3F0A51;
+    font-weight: bolder;
+}
+@media (max-width:767.98px) {
+    .jumbotron p::first-letter{
+        font-size: 150%;
+        color: #3F0A51;
+        font-weight: 600;
+    }
+}
+/*About Us page Styling  */
+@media (max-width:767.98px) {
+    .About-vission p{
+        font-size: 8px;
+    }
+    .About-vission h1{
+        font-size: 40px;
+    }
+    .About-divs p::first-letter{
+        font-size: 90%;
+        color: #3F0A51;
+        font-weight: bold;
+    }
+}
+
+.Italic-bold b{
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Exo 2";
+}
+.First_child p::first-letter{
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Exo 2";
+    font-size: 300%;
+}
+.First_child p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+@media (max-width:767.98px) {
+    .Italic-bold b{
+        font-weight: 350;
+    }
+    .First_child p::first-letter{
+        font-weight: 350;
+        font-size: 150%;
+    }
+    .First_child p{
+        font-size: a16px;
+        font-weight: 300;
+    }
+}
+/* About-Us divs forms */
+.About-divs p::first-letter{
+    font-size: 300%;
+    color: #3F0A51;
+    font-weight: bolder;
+}
+/* give Online page */
+
+ .Overlay-fonts a{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    border-radius: 12% 5px 12% 5px ;
+    background-color: #631e7c;
+    padding:4px 4px;
+    color: white;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.overlay {
+    text-decoration: none;
+    margin-bottom:15px ;
+}
+.Overlay-fonts a:hover{
+    color : black;
+    background-color: white;
+    padding:4px;
+    text-decoration: solid; 
+} 
+
+@media (max-width:767.98px) {
+    .Overlay-fonts a{
+        padding:2px 2px;
+        color: white;
+        margin-top: 35px;
+        font-size: 25px;
+    }
+}
+/* Overlay Image styling Begins */
+
+
+.container1 h2{
+    font-family:cursive;
+    font-size: 40px;
+    z-index: 1;
+}
+.container1 .jesstyle{
+    font-weight: 900;
+    word-spacing: 25px;
+    letter-spacing: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 500px){
+    .container1 .jesstyle{
+        font-weight: 300;
+        word-spacing: 9px;
+        letter-spacing: .1rem;
+    }
+    
+}
+@media (max-width:767.98px) {
+    .container1 .jesstyle{
+        font-weight: 600;
+        word-spacing: 9px;
+        letter-spacing: .1rem;
+    }
+    
+}
+
+.container1{
+    color:#fff;
+    height: 75%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} 
+.color-overlay{
+width:100%;
+height: 100%;
+background:#000;
+opacity: 0.8;
+position: absolute;
+background: black ;
+}
+@media (max-width:767.98px) {
+    .container1 h2{
+        font-family:cursive;
+        font-size: 25px;
+        z-index: 1.4;
+    }
+    
+}
+/*Footer Section */
+.Before-footer{
+    background-color:purple;
+    color: #fff;
+    border-radius: 20% 13% 13% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:6%;
+    position: relative;
+}
+.Before-footer a{
+    text-decoration: none;
+    color: white;
+}
+.Before-footer a:hover{
+    text-decoration: overline;
+    color: yellow ;
+    opacity: 0.8;
+    background-color: black;
+    border-radius: 3px 5px;
+}
+.Before-footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:3rem;
+}
+@media (max-width:767.98px) {
+    .Before-footer p{
+        font-size: 1.4rem;
+    }
+    
+}
+.Continuation{
+    font-family: 'Pacifico';
+}
+.footer-Counsel{
+    background-color:#000;
+    border-radius: 40px;
+    font-size: 20px;
+    padding:6px 6px;
+}
+@media (max-width:767.98px) {
+    .footer-Counsel{
+        background-color:#000;
+        border-radius: 20px;
+        font-size: 15px;
+        padding:3px 3px;
+    }
+}
+.main_footer{
+    background-color:#3F0A51;
+    margin-top: .7rem;
+    border-radius: 20px 20px 1px 1px;
+}
+.main_footer h1{
+    color:#fff;
+}
+.main_footer h2{
+    color:rgb(238, 181, 25);
+    font-family: philosophy;
+    font-weight: bolder;
+}
+.main_footer p{
+    color:white;
+    
+}
+.main_footer a{
+    color:white;
+    margin:0.2rem;
+    text-decoration: none;
+}
+.main_footer a:hover{
+    color:#000;
+    background: #fff;
+    border-radius: 40px;
+    font-size: .99rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* footer section */
+.footer_1{
+    margin-top: 8%;
+}
+.test_22 a::before{
+    color: aliceblue;
+}
+
+.coolest-p-tag p::first-letter{
+    font-size: 200%;
+    font-family: "Exo 2";
+    font-weight: 400;
+    font-style: oblique;
+}
+/*Events Coming Up */
+.Event-coming_up{
+    background-color: rgb(0, 0, 0,.7);
+    background: no-repeat center center;
+}
+/* Home Section Styling  */
+#stylish{
+    font-family: philisophy;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.stylish{
+    font-family: Pacifico;
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+@media (max-width:767.98px) {
+    #stylish{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .stylish{
+        font-weight: 400;
+        font-size: 30px;
+    }
+}
+.dash{
+    font-weight: .8rem;
+    font-size: 2rem;
+}
+#Header{
+    background: no-repeat center center;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.color-verlay{
+    min-height: 80vh;
+    background-color: rgb(0, 0, 0,.7);
+}
+@media (max-width: 767.98px) {
+    .color-verlay{
+        min-height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+#Header h3{
+    background-color: #fff;
+    color: #000;
+    border-radius: .7em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+}
+#Header a{
+    text-decoration: none;
+}
+#Header h3:hover{
+    background-color: purple;
+    border-radius: 15px;
+    color:#fff;
+}
+#Header a p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-style: oblique;
+}
+.Ready_style{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size:40px;
+}
+.Ready_style a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.Ready_style a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+.cloud-steel a{
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:12px;
+    font-style: italic;
+    text-decoration: none;
+}
+.cloud-steel a:hover{
+    color:yellow;
+    padding: 6px;
+    font-style: oblique;
+    text-decoration: none;
+}
+@media (max-width:767.98px) {
+    .cloud-steel a{
+        font-size: 15px;
+    }
+}
+/* PAYMENT GATEWAY */
+.Payment-gate {
+    font-family:philosophy;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Payment-gate P{
+    color: #000000;
+    font-family: "Exo 2", Sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    letter-spacing: 5px;
+}
+
+.Account-1{
+    font-family: "Exo 2", Sans-serif;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: purple;
+}
+.Account-style{
+    background-color: #F4F5F7;
+}
+@media (max-width:767.98px) {
+    .Account-1 h1{
+        color: purple;
+        font-family: "Exo 2", Sans-serif;
+        font-weight:bold;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .9rem;
+    }
+    .Account-1 h4{ color: purple;
+        font-family: "Exo 2", Sans-serif;
+        font-weight:bold;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .9rem;}
+}
+/* Jumbotron */
+.jumbotron h2{
+    word-spacing: 8px;
+    letter-spacing: 10px;
+}
+.jumbotron p{
+        font-size: 25px;
+        font-weight: 450;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+@media (max-width:767.98px) {
+    .jumbotron{
+        font-size: 30px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .jumbotron h2{
+        word-spacing: 2px;
+        letter-spacing: 5px;
+    }
+    .jumbotron p{
+            font-size: 25px;
+            font-weight: 450;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+}
+/* Contact SECTION */
+.contact-header{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+@media (max-width:767.98px) {
+    .contact-header{
+        margin-top: 10vh;
+    }
+}
+/* Prayer-Intersetion */
+@media (max-width:767.98px) {
+    .prayer-form{
+        margin-top: 5vh;
+    }
+}
+/* Church Address */
+.Church-address h3{
+  font-family:"Exo 2";
+  font-weight: bold;
+  
+}
+/* Message Podcast Section */
+@media only screen and (max-width: 500px){
+    .testi_line audio[controls]{
+        width : 100%;
+    }
+    
+}
